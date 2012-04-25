@@ -1,5 +1,7 @@
 h1 {
+    color: #0AF;
     font-size: 190px;
+    text-shadow: 0 0 12px #0af, 0 0 3px #fff;
     -webkit-transform: translateZ(50px);
     -moz-transform: translateZ(50px);
     -ms-transform: translateZ(50px);
@@ -9,11 +11,40 @@ h1 {
 
 h2 {
     font-size: 70px;
+    color: #444;
+    text-shadow: 0 0 6px #444, 0 0 2px #fff;
+    /*border-bottom: 1px solid #333;*/
     -webkit-transform: translateZ(50px);
     -moz-transform: translateZ(50px);
     -ms-transform: translateZ(50px);
     -o-transform: translateZ(50px);
     transform: translateZ(50px);
+}
+
+h3 {
+    font-size: 70px;
+    color: #444;
+    /*text-shadow: 0 0 8px #444, 0 0 2px #fff;*/
+    /*border-bottom: 1px solid #333;*/
+    -webkit-transform: translateZ(50px);
+    -moz-transform: translateZ(50px);
+    -ms-transform: translateZ(50px);
+    -o-transform: translateZ(50px);
+    transform: translateZ(50px);
+}
+
+.gitg {
+    color:black;
+    text-shadow: 0 0 12px black, 0 0 2px #fff;
+}
+
+.giti {
+    color:#d8382d;
+    text-shadow: 0 0 12px #d8382d, 0 0 2px #fff;
+}
+.gitt {
+    color: #40bf4c;
+    text-shadow: 0 0 12px #40bf4c, 0 0 2px #fff;
 }
 
 .center {
